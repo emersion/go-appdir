@@ -1,8 +1,8 @@
 # go-appdir
 
-[![GoDoc](https://godoc.org/github.com/ProtonMail/go-appdir?status.svg)](https://godoc.org/github.com/ProtonMail/go-appdir)
+[![GoDoc](https://godoc.org/github.com/emersion/go-appdir?status.svg)](https://godoc.org/github.com/emersion/go-appdir)
 
-Minimalistic Go package to get application directories such as config and cache.
+Go package to get application directories such as config and cache.
 
 Platform | Windows | [Linux/BSDs] | [macOS]
 -------- | ------- | ------------------------------------------------------------------------------------------ | -----
@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ProtonMail/go-appdir"
+	"github.com/emersion/go-appdir"
 )
 
 func main() {
